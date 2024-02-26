@@ -249,8 +249,9 @@ h3 {
 @media screen and (min-width: 960px) {
 
     .pc-header-nav {
-        width: 75%;
+        width: 55%;
         padding: 10px 0;
+        margin-right: 6.5%;
     }
 
     .pc-header-nav ul {
@@ -258,7 +259,7 @@ h3 {
     }
 
     .pc-header-nav ul li a{
-        width: 20%;
+        /* width: 15%; */
         color: var(--main-font-color);
     }
 
@@ -266,6 +267,58 @@ h3 {
         font-weight: bold;
         border-bottom: 1px solid var(--main-font-color);
     } 
+
+    .pc-header-nav-link {
+        position: relative;
+        width: 20%;
+        text-align: center;
+    }
+
+    .pc-header-nav-link:hover {
+        color: var(--main-btn-colre);
+        font-weight: bold;
+    }
+
+    .header-hover-lists {
+        width: 150%;
+        background-color: #ffffffd1;
+        padding: var(--sp-main-mb-pb);
+        position: relative;
+        z-index: 100;
+        margin-top: 13px;
+        left: 35%;
+    }
+
+    .header-hover-lists ul li a {
+        color: var(--main-font-color);
+        position: relative;
+        font-size: var(--pc-main-font-size);
+        /* border-bottom: 1px solid var(--main-font-color); */
+        margin-bottom: 10px;
+    } 
+
+    .header-hover-lists ul li a:hover {
+        color: var(--main-btn-colre);
+    } 
+
+    .header-hover-lists ul li a span {
+        margin-left: 20px;
+        width: 200px;
+    }
+
+    .header-hover-lists ul li a::before {
+        content: '';
+        position: absolute;
+        height: 1px;
+        width: 15px;
+        background-color: var(--main-font-color);
+        top: 10px;
+    }
+
+    #header-hover-lists-home ul li a {
+        margin-left: 2.5%;
+    }
+    /* #header-hover-lists-home */
 }
 /* header */
 
@@ -458,6 +511,12 @@ h3 {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4; /* 任意の行数を指定 */   
     margin-bottom: 10px; 
+}
+
+@media screen and (min-width: 768px) {
+    .swipe-explain-wrapper p  {
+        height: 125px;
+    }
 }
 
 .swiper-button-black {
