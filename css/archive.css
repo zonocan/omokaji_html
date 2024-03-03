@@ -1,0 +1,70 @@
+.archive-wrapper {
+    padding: var(--sp-main-mb-pb) 0;
+}
+
+.archive-posts header h2 {
+    font-size: var(--sp-h2-font-size);
+}
+
+@media screen and (min-width: 960px) {
+
+    .archive-wrapper {
+        padding: var(--pc-main-mb-pb) 0;
+    }    
+
+    .archive-posts header h2 {
+        font-size: var(--pc-h2-font-size);
+    }   
+}
+
+.archive-posts section {
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+.archive-posts section ul li {
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+@media screen and (min-width: 960px) {
+
+    .archive-posts section {
+        margin-bottom: var(--pc-main-mb-pb);
+    }
+    
+    .archive-posts section ul li {
+        margin-bottom: var(--pc-main-mb-pb);
+    }    
+}
+
+.archive-posts section ul li h3 {
+    position: relative;
+    border-bottom: 1px solid var(--main-btn-colre);
+}
+
+.archive-posts section ul li h3::before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--main-btn-colre);
+}
+
+.archive-posts section ul li h3 span {
+    margin-left: 20px;
+}
+
+.archive-posts section ul li p {
+    line-height: 1.5rem;
+}
+
+.archive-post-bunner img {
+    width: 100%;
+}
+
+@media screen and (min-width: 960px) {
+    .archive-posts section ul li p {
+        line-height: 2rem;
+    }    
+}

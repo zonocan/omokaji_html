@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="9" viewBox="0 0 15 9">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_5" data-name="長方形 5" width="15" height="9" transform="translate(0.807 0.419)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="filter-btn-ui" transform="translate(-0.807 -0.419)" clip-path="url(#clip-path)">
+    <path id="パス_1" data-name="パス 1" d="M0,1.385H15.65" transform="translate(0.109 0.064)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="パス_2" data-name="パス 2" d="M.05,7.369H15.7" transform="translate(0.111 0.343)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="パス_3" data-name="パス 3" d="M11.167,2.8a1.309,1.309,0,1,0-1.3-1.309A1.3,1.3,0,0,0,11.167,2.8Z" transform="translate(0.569 0.008)" fill="#172857" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="パス_4" data-name="パス 4" d="M3.711,8.938a1.309,1.309,0,1,0-1.3-1.309A1.3,1.3,0,0,0,3.711,8.938Z" transform="translate(0.222 0.294)" fill="#172857" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

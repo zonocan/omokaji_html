@@ -1,0 +1,179 @@
+.side-nav-btn {
+    position: fixed;
+    z-index: 500;
+    width: 250px;
+    border: none;
+    background-color: #172857f0;
+    color: var(--sub-font-color);
+    bottom: 100px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: 10px 20px;
+    animation-name:fadeUpAnime;
+    animation-duration:1.5s;
+    animation-fill-mode:forwards;
+    opacity:0;          
+}
+
+.side-nav-btn img {
+    margin: 5px 0 0 10px;
+}
+
+.side-nav-btn.active {
+    display: none;
+}
+
+@keyframes fadeUpAnime{
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+  
+    to {
+      opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffd1;
+    color: var(--main-font-color);
+    overflow: auto;   
+    transition: .5s;
+}
+
+@media screen and (min-width: 960px) {
+    aside {
+        width: 50%;
+    }
+}
+
+.side-nav.active {
+    display: block;
+}
+
+.aside-close-btn {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    right: 25px;
+    border: none;
+    z-index: 10000;
+}
+
+.aside-close-btn span {
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    top: 15px;
+    background-color: var(--secion-color-blur);
+}
+
+.aside-close-btn span:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.aside-close-btn span:nth-child(2) {
+    transform: rotate(-45deg);
+}
+
+.aside-section-wrapper {
+    position: relative;
+    margin-top: 50px;
+}
+
+.aside-section-wrapper section h2 {
+    text-align-last: left;
+    position: relative;
+}
+
+.aside-section-wrapper section h2::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 60%;
+    right: 0;
+    top: 20px;
+    background-color: var(--main-font-color);
+}
+
+.aside-recomend-posts-wrapper ul a li {
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+.aside-recomend-posts-wrapper ul a li img {
+    width: 100%;
+}
+
+.aside-recomend-posts-wrapper ul a li p {
+    font-size: var(--sp-h3-font-size);
+    color: var(--main-font-color);
+    font-weight: bold;
+}
+
+@media screen and (min-width: 960px) {
+
+    .aside-section-wrapper section {
+        margin-bottom: var(--pc-main-mb-pb);
+    }
+    .aside-recomend-posts-wrapper ul a li p {
+        font-size: 20px;
+    }
+}
+/*  */
+
+.aside-payment-posts-wrapper ul {
+    justify-content: space-between;
+}
+
+.aside-payment-posts-wrapper ul li {
+    width: 48%;
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+.aside-payment-posts-wrapper ul li a img {
+    width: 100%;
+    height: 100%;
+}
+
+.aside-games-posts-wrapper {
+    justify-content: space-between;
+}
+
+.aside-games-posts-wrapper ul {
+    width: 48%;
+    background-color: var(--secion-color-blur);
+    padding: 5px 15px;
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+.aside-games-posts-wrapper ul li p {
+    color: var(--sub-font-color);
+    /* margin-top: 2.5px; */
+}
+
+.aside-games-posts-wrapper ul li img {
+    width: 20px;
+    margin-right: 15px;
+}
+
+@media screen and (min-width: 960px) {
+    .aside-games-posts-wrapper ul li p {
+        color: var(--sub-font-color);
+        /* margin-top: 2.5px; */
+        font-size: 20px;
+    }
+    
+    .aside-games-posts-wrapper ul li img {
+        width: 35px;
+        margin-right: 15px;
+    }    
+}
