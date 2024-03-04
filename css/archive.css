@@ -39,6 +39,11 @@
 .archive-posts section ul li h3 {
     position: relative;
     border-bottom: 1px solid var(--main-btn-colre);
+    font-weight: bold;
+}
+
+.archive-posts section ul li h3 span {
+    font-size: var(--sp-h3-font-size);
 }
 
 .archive-posts section ul li h3::before {
@@ -53,6 +58,17 @@
 
 .archive-posts section ul li h3 span {
     margin-left: 20px;
+}
+
+
+@media screen and (min-width: 960px) {
+    .archive-posts section ul li h3 span {
+        font-size: var(--pc-h3-font-size);
+    }
+    
+    .archive-posts section ul li h3::before {
+        height: 25px;
+    }    
 }
 
 .archive-posts section ul li p {

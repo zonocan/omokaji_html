@@ -532,6 +532,11 @@ h3 {
 /* slider 共通項目 (recomend partnership) */
 
 
+.footer {
+    position: relative;
+    /* z-index: 100000; */
+}
+
 .footer .inner {
     padding: var(--sp-main-mb-pb) 0;
 }
@@ -642,3 +647,17 @@ h3 {
     }
 }
 /* footer */
+
+.breadcrumb span {
+    margin-left: 5px;
+}
+
+.breadcrumb span,
+.breadcrumb span a {
+    color: var(--secion-color-blur);
+}
+
+.breadcrumb span:last-child {
+    font-weight: bold;
+}
+/*  */
