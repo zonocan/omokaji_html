@@ -79,6 +79,12 @@
     line-height: 1.5rem;
 }
 
+@media screen and (min-width: 960px) {
+    .overview-posts-wrapper section p {
+        line-height: 2rem;
+    }
+}
+
 .over-view-content-02-icon {
     width: 30%;
     margin-right: 10%;
@@ -390,5 +396,126 @@
     .game-how-to-win-posts-wrapper ul li {
         margin-bottom: var(--pc-main-mb-pb);
     }    
+
+
+    .game-rule-posts-wrapper section ul li p{
+        line-height: 2rem;
+    }
 }
 /* game */
+
+.overview-posts-wrapper article header h2 p {
+    font-size: var(--sp-h2-font-size);
+    margin-bottom: var(--sp-main-mb-pb);  
+    text-align: center;
+    font-weight: bold;    
+} 
+
+.ranking-sites-wrapper article header h2 {
+    font-size: var(--sp-h2-font-size);
+    margin-bottom: var(--sp-main-mb-pb);    
+    text-align: center;
+    font-weight: bold;       
+}
+
+@media screen and (min-width: 960px) {
+
+    .overview-posts-wrapper article header h2 p {
+        font-size: var(--pc-h2-font-size);
+    }
+
+    .ranking-sites-wrapper article header h2 {
+        font-size: var(--pc-h2-font-size);
+        margin-bottom: var(--pc-main-mb-pb);
+    }    
+
+}
+
+.ranking-sites-wrapper section ul li {
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+@media screen and (min-width: 960px) {
+
+    .ranking-sites-wrapper section ul li {
+        margin-bottom: var(--pc-main-mb-pb);
+    }
+
+}
+
+.ranking-site-bunner img {
+    width: 100%;
+}
+
+.ranking-sites-wrapper section ul li h3 {
+    position: relative;
+    border-bottom: 1px solid var(--main-btn-colre);
+}
+
+.ranking-sites-wrapper section ul li h3::before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--main-btn-colre);   
+}
+
+.ranking_no_top_icon {
+    width: 20px;
+    max-height: 20px;
+    margin-left: 15px;    
+}
+
+.ranking_no_top_icon img{
+    width: 100%;
+}
+
+.ranking_no_icon {
+    width: 35px;
+    max-height: 20px;
+    margin-left: 15px;    
+}
+
+.ranking_no_icon img{
+    width: 100%;
+}
+
+.ranking_site_title {
+    width: 80%;
+    margin-left: 10px;
+    font-size: var(--sp-h3-font-size);
+}
+
+@media screen and (min-width: 960px) {
+  
+    .ranking-sites-wrapper section ul li h3::before{
+        height: 30px;
+    }   
+
+    .ranking_no_top_icon {
+        width: 25px;
+        margin-left: 20px;    
+    }
+
+    .ranking_site_title {
+        font-size: var(--pc-h3-font-size);
+        margin-left: 20px;
+    }
+
+    .ranking_no_icon {
+        width: 45px;
+    }    
+}
+ 
+.ranking-sites-wrapper article section ul li p {
+    line-height: 1.5rem;
+}
+
+@media screen and (min-width: 960px) {
+
+    .ranking-sites-wrapper article section ul li p {
+        line-height: 2rem;
+    }
+}

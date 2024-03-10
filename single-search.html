@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>オモカジ</title>
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/common.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/single.css">
+  <link rel="stylesheet" type="text/css" href="./css/aside.css">   
+  <link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
+
+  <!-- google-font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!--  -->  
+</head>
+
+<body>
+  <header class="header">
+    <div class="inner d-fl">
+      <h1 class="header-logo"><a href="#top"><img src="./asset/logo.svg" alt="logo"></a></h1>
+      <div class="hum-btn pc-d-none">
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="sp-d-none pc-header-nav">
+        <ul class="d-fl">
+          <!-- <li class="pc-header-nav-link link-active"><a href="#top">TOP</a></li>
+          <li class="pc-header-nav-link"><a href="#recomennd">RANKINNG</a></li> -->
+          <!-- <li class="pc-header-nav-link"><a href="#bonus">BONUS</a></li> -->
+          <!-- <li class="pc-header-nav-link"><a href="#search">SEARCH</a></li>
+          <li class="pc-header-nav-link"><a href="#payment">PAYMENT</a></li> -->
+          <!-- <li class="pc-header-nav-link"><a href="#guide">GUIDE</a></li> -->
+          <!-- <li class="pc-header-nav-link"><a href="#event">EVENT</a></li> -->
+          <!-- <li class="pc-header-nav-link"><a href="#games">GAMES</a></li>
+          <li class="pc-header-nav-link"><a href="#event">EVENT</a></li>
+          <li class="pc-header-nav-link"><a href="#about">ABOUT</a></li> -->
+          <!-- <li><a href="#partenership">提携オンラインカジノ</a></li> -->
+          <li id="pc-header-nav-link-home" class="pc-header-nav-link">
+            <span>HOME</span>
+            <nav id="header-hover-lists-home" class="header-hover-lists d-none">
+              <ul>
+                <li><a href="#top"><span>TOP</span></a></li>
+                <li><a href="#recomennd"><span>RECOMEND</span></a></li>
+                <li><a href="#search"><span>SEARCH</span></a></li>
+                <li><a href="#payment"><span>PAYMENT</span></a></li>
+                <li><a href="#games"><span>GAMES</span></a></li>
+                <li><a href="#about"><span>ABOUT</span></a></li>
+              </ul>
+            </nav>
+          </li>
+          <li id="pc-header-nav-link-recomend" class="pc-header-nav-link">
+            <span>RECOMENDE</span>
+            <nav id="header-hover-lists-recomend" class="header-hover-lists d-none">
+              <ul>
+                <li><a href=""><span>ベラジョンカジノ</span></a></li>
+                <li><a href=""><span>ミスティーノ</span></a></li>
+                <li><a href=""><span>コニベット</span></a></li>
+              </ul>
+            </nav>          
+          </li>
+          <li id="pc-header-nav-link-search" class="pc-header-nav-link">
+            <span>SEARCH</span>
+            <nav id="header-hover-lists-search" class="header-hover-lists d-none">
+              <ul>
+                <li><a href=""><span>出金スピード</span></a></li>
+                <li><a href=""><span>入金不要ボーナス</span></a></li>
+                <li><a href=""><span>リベートボーナス</span></a></li>
+                <li><a href=""><span>初心者向け</span></a></li>
+                <li><a href=""><span>ハイローラー向け</span></a></li>
+                <li><a href=""><span>仮想通貨</span></a></li>
+              </ul>
+            </nav>            
+          </li>
+          <li id="pc-header-nav-link-payment" class="pc-header-nav-link">
+            <span>PAYMENT</span>
+            <nav id="header-hover-lists-payment" class="header-hover-lists d-none">
+              <ul>
+                <li><a href=""><span>payz</span></a></li>
+                <li><a href=""><span>銀行振り込み</span></a></li>
+                <li><a href=""><span>クレジットカード</span></a></li>
+                <li><a href=""><span>Vega Wallet</span></a></li>
+                <li><a href=""><span>STIC PAY</span></a></li>
+                <li><a href=""><span>bitcoin</span></a></li>
+              </ul>
+            </nav>             
+          </li>
+          <li id="pc-header-nav-link-games" class="pc-header-nav-link">
+            <span>GAMES</span>
+            <nav id="header-hover-lists-games" class="header-hover-lists d-none">
+              <ul>
+                <li><a href=""><span>バカラ</span></a></li>
+                <li><a href=""><span>ブラックジャック</span></a></li>
+                <li><a href=""><span>ポーカー</span></a></li>
+                <li><a href=""><span>ルーレット</span></a></li>
+                <li><a href=""><span>ジックポー</span></a></li>
+                <li><a href=""><span>スポーツベット</span></a></li>
+              </ul>
+            </nav>             
+          </li>
+        </ul>        
+      </nav>
+    </div>
+  </header>
+  <!-- header終了 -->
+
+  <div class="hum-list d-none">
+   <div class="inner">
+
+    <nav>
+      <ul>
+        <li id="hum-list-sitemap-home-accordion-triger-btn" class="hum-list-link-title">HOME</li>
+        <ul id="hum-list-sitemap-home-accordion-list" class="hum-list-accordion-contents d-none">
+          <li><a href="#top" class="d-fl"><span>TOP</span><small>トップページ</small></a></li>
+          <li><a href="#recomennd" class="d-fl"><span>RECOMEND</span><small>おすすめカジノ</small></a></li>
+          <!-- <li><a href="#bonus" class="d-fl"><span>BONUS</span><small>限定ボーナス</small></a></li> -->
+          <li><a href="#search" class="d-fl"><span>SEARCH</span><small>カジノ比較</small></a></li>
+          <li><a href="#payment" class="d-fl"><span>PAYMENT</span><small>お支払い方法</small></a></li>
+          <!-- <li><a href="#guide" class="d-fl"><span>GUIDE</span><small>始め方ガイド</small></a></li> -->
+          <!-- <li><a href="#event" class="d-fl"><span>EVENT</span><small>イベント情報</small></a></li> -->
+          <li><a href="#games" class="d-fl"><span>GAMES</span><small>おすすめゲーム</small></a></li>
+          <li><a href="#about" class="d-fl"><span>ABOUT</span><small>サイト概要</small></a></li>    
+        </ul>
+        <!--  -->
+        <li id="hum-list-sitemap-recomend-accordion-triger-btn" class="hum-list-link-title">RECOMEND</li>
+        <ul id="hum-list-sitemap-recomend-accordion-list" class="hum-list-accordion-contents d-none">
+          <li><a href="" class="d-fl"><span>ベラジョンカジノ</span></a></li>
+          <li><a href="" class="d-fl"><span>ミスティーノ</span></a></li>
+          <li><a href="" class="d-fl"><span>コニベット</span></a></li>
+        </ul>
+        <!--  -->
+        <!-- <li id="hum-list-sitemap-bonus-accordion-triger-btn" class="hum-list-link-title">BONUS</li> -->
+        <!-- <ul id="hum-list-sitemap-bonus-accordion-list" class="hum-list-accordion-contents d-none">
+          <li><a href="" class="d-fl"><span>テキストテキストテキスト</span></a></li>
+          <li><a href="" class="d-fl"><span>テキストテキストテキストテキストテキ</span></a></li>
+          <li><a href="" class="d-fl"><span>テキストテキストテキスト</span></a></li>
+        </ul> -->
+        <!--  -->        
+        <li id="hum-list-sitemap-search-accordion-triger-btn" class="hum-list-link-title">SEARCH</li>
+        <ul id="hum-list-sitemap-search-accordion-list" class="hum-list-accordion-contents d-none">
+          <li><a href="" class="d-fl"><span>出金スピード</span></a></li>
+          <li><a href="" class="d-fl"><span>入金不要ボーナス</span></a></li>
+          <li><a href="" class="d-fl"><span>リベートボーナス</span></a></li>
+          <li><a href="" class="d-fl"><span>初心者向け</span></a></li>
+          <li><a href="" class="d-fl"><span>ハイローラー向け</span></a></li>
+          <li><a href="" class="d-fl"><span>仮想通貨</span></a></li>
+        </ul>
+        <!--  -->          
+        <li id="hum-list-sitemap-payment-accordion-triger-btn" class="hum-list-link-title">PAYMENT</li>
+        <ul id="hum-list-sitemap-payment-accordion-list" class="hum-list-accordion-contents d-none">
+          <li><a href="" class="d-fl"><span>PAYZ</span></a></li>
+          <li><a href="" class="d-fl"><span>銀行送金</span></a></li>
+          <li><a href="" class="d-fl"><span>クレジットカード</span></a></li>
+          <li><a href="" class="d-fl"><span>Vega Wallet</span></a></li>
+          <li><a href="" class="d-fl"><span>Stick Pay</span></a></li>
+          <li><a href="" class="d-fl"><span>Bit coin</span></a></li>          
+        </ul>
+        <!--  -->          
+        <!-- <li id="hum-list-sitemap-guide-accordion-triger-btn" class="hum-list-link-title">GUIDE</li> -->
+        <!-- <ul id="hum-list-sitemap-guide-accordion-list" class="hum-list-accordion-contents d-none">
+          <li><a href="" class="d-fl"><span>ベラジョンカジノ</span></a></li>
+          <li><a href="" class="d-fl"><span>ミスティーノ</span></a></li>
+          <li><a href="" class="d-fl"><span>コニベット</span></a></li>
+        </ul> -->
+        <!--  -->          
+        <!-- <li id="hum-list-sitemap-event-accordion-triger-btn" class="hum-list-link-title">EVENT</li> -->
+        <!-- <ul id="hum-list-sitemap-event-accordion-list" class="hum-list-accordion-contents d-none">
+          <li><a href="" class="d-fl"><span>テキストテキスト</span></a></li>
+          <li><a href="" class="d-fl"><span>テキスト</span></a></li>
+          <li><a href="" class="d-fl"><span>テキストテキスト</span></a></li>
+        </ul> -->
+        <!--  -->          
+        <li id="hum-list-sitemap-games-accordion-triger-btn" class="hum-list-link-title">GAMES</li>
+        <ul id="hum-list-sitemap-games-accordion-list" class="hum-list-accordion-contents d-none">
+          <li><a href="" class="d-fl"><span>バカラ</span></a></li>
+          <li><a href="" class="d-fl"><span>ブラックジャック</span></a></li>
+          <li><a href="" class="d-fl"><span>スロット</span></a></li>
+          <li><a href="" class="d-fl"><span>ポーカー</span></a></li>
+          <li><a href="" class="d-fl"><span>ルーレット</span></a></li>
+          <li><a href="" class="d-fl"><span>ジックポー</span></a></li> 
+          <li><a href="" class="d-fl"><span>スポーツベット</span></a></li>          
+        </ul>
+        <!--  -->          
+      </ul>
+    </nav>
+
+    <nav>
+      <ul>
+        <li id="hum-list-relation-site-triger-btn" class="hum-list-link-title">関連サイト</li>
+        <ul id="hum-list-relation-site-accordion-list" class="hum-list-accordion-contents d-none">
+          <li><a href="" class="d-fl"><span>テキストテキストテキストテキストテキスト</span></a></li>
+          <li><a href="" class="d-fl"><span>テキストテキストテキスト</span></a></li>
+          <li><a href="" class="d-fl"><span>テキストテキストテキストテキスト</span></a></li>
+          <li><a href="" class="d-fl"><span>テキストテキストテキスト</span></a></li>
+        </ul>
+        <!--  -->        
+      </ul>
+    </nav>
+    
+    <a href="" target="_blank" rel="noopener noreferrer" class="humlist-twitter-btn">
+      <img src="./asset/twitter-black.svg" alt="twitter">
+    </a>    
+   </div> 
+  </div>
+  <!-- .hum-list -->
+ 
+  <main id="page-contents">
+    <div class="single-wrapper bg-white-section">
+      <div class="inner">
+        <p class="breadcrumb d-fl"><span><a href="">ホーム</a></span><span>></span><span>Search Title</span></p>
+        <!-- end .breadcrumb -->
+
+        <div class="overview-posts-wrapper">
+          <article>
+            <header>
+              <h2><p>Search Title</p></h2>
+            </header>
+
+            <section>
+              <div class="overview-post-bunner-wrapper">
+                <img src="asset/search-assets/search-01.jpg" alt="バナー">
+              </div>
+            </section>
+            <!-- end section -->
+
+            <section>
+              <p>
+                シックボーは3つのサイコロを使うカジノゲームです。
+                出目を予想するだけの簡単なゲームで、もともとはアジア圏で人気でしたが、
+                現在はヨーロッパやアメリカのカジノでも扱われています。
+                バカラやブラックジャックに比べるとマイナーなので、
+                どんなゲームなのかもよく分からないという人は多いでしょう。
+                しかし、賭けの種類豊富さや最高配当の高さ、偶然の妙を知れば、
+                きっと一度は遊んでみたいと思うはずです。
+                そこで今回はシックボーのルールや攻略法などを解説します。
+              </p>
+            </section>
+            <!-- end section -->
+
+            <section>
+              <div class="over-view-content-02-wrapper d-fl">
+                <div class="over-view-content-02-icon">
+                  <img src="asset/search-overview-char.svg" alt="アイコン">
+                </div>
+                <p class="over-view-content-02-content">
+                  シックボーは3つのサイコロを使うカジノゲームです。
+                  出目を予想するだけの簡単なゲームで、もともとはアジア圏で人気でしたが、
+                  現在はヨーロッパやアメリカのカジノでも扱われています。
+                  バカラやブラックジャックに比べるとマイナーなので、
+                  どんなゲームなのかもよく分からないという人は多いでしょう。
+                  しかし、賭けの種類豊富さや最高配当の高さ、偶然の妙を知れば、
+                  きっと一度は遊んでみたいと思うはずです。
+                  そこで今回はシックボーのルールや攻略法などを解説します。                  
+                </p>
+              </div>
+            </section>
+            <!--  -->
+
+            <section>
+              <p class="over-view-content-03-content">
+                シックボーは3つのサイコロを使うカジノゲームです。
+                出目を予想するだけの簡単なゲームで、もともとはアジア圏で人気でしたが、
+                現在はヨーロッパやアメリカのカジノでも扱われています。
+                バカラやブラックジャックに比べるとマイナーなので、
+                どんなゲームなのかもよく分からないという人は多いでしょう。
+                しかし、賭けの種類豊富さや最高配当の高さ、偶然の妙を知れば、
+                きっと一度は遊んでみたいと思うはずです。
+                そこで今回はシックボーのルールや攻略法などを解説します。                     
+              </p>
+            </section>
+          </article>
+        </div>
+        <!-- end .overview-posts-wrapper -->
+
+        <div class="ranking-sites-wrapper">
+          <article>
+            <header><h2>RANKING</h2></header>
+            <section>
+              <ul>
+                <li class="ranking-site-bunner"><img src="asset/search-assets/search-03.jpg" alt="バナー"></li>
+                <li>
+                  <h3 class="d-fl">
+                    <span class="ranking_no_top_icon"><img src="asset/ranking/ranking_no1.svg" alt=""></span>
+                    <span class="ranking_site_title">Site-Title</span>
+                  </h3>
+                </li>
+                <li>
+                  <p>
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス                         
+                  </p>
+                </li>
+                <li>
+                  <a href="" class="btn main-btn d-fl">
+                    <span>公式サイトはこちら</span>
+                    <img src="./asset/arrow-right-solid-white.svg" alt="arrow">                    
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <!-- end section -->
+
+            <section>
+              <ul>
+                <li class="ranking-site-bunner"><img src="asset/search-assets/search-04.jpg" alt="バナー"></li>
+                <li>
+                  <h3 class="d-fl">
+                    <span class="ranking_no_top_icon"><img src="asset/ranking/ranking_no2.png" alt=""></span>
+                    <span class="ranking_site_title">Site-Title</span>
+                  </h3>
+                </li>
+                <li>
+                  <p>
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス                         
+                  </p>
+                </li>
+                <li>
+                  <a href="" class="btn main-btn d-fl">
+                    <span>公式サイトはこちら</span>
+                    <img src="./asset/arrow-right-solid-white.svg" alt="arrow">                    
+                  </a>
+                </li>
+              </ul>              
+            </section>
+            <!-- end section -->
+
+            <section>
+              <ul>
+                <li class="ranking-site-bunner"><img src="asset/search-assets/search-05.jpg" alt="バナー"></li>
+                <li>
+                  <h3 class="d-fl">
+                    <span class="ranking_no_top_icon"><img src="asset/ranking/ranking_no3.png" alt=""></span>
+                    <span class="ranking_site_title">Site-Title</span>
+                  </h3>
+                </li>
+                <li>
+                  <p>
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス                         
+                  </p>
+                </li>
+                <li>
+                  <a href="" class="btn main-btn d-fl">
+                    <span>公式サイトはこちら</span>
+                    <img src="./asset/arrow-right-solid-white.svg" alt="arrow">                    
+                  </a>
+                </li>
+              </ul>              
+            </section>
+            <!-- end section -->
+
+            <section>
+              <ul>
+                <li class="ranking-site-bunner"><img src="asset/search-assets/search-06.jpg" alt="バナー"></li>
+                <li>
+                  <h3 class="d-fl">
+                    <span class="ranking_no_icon"><img src="asset/ranking/ranking_no4.svg" alt=""></span>
+                    <span class="ranking_site_title">Site-Title</span>
+                  </h3>
+                </li>
+                <li>
+                  <p>
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス                         
+                  </p>
+                </li>
+                <li>
+                  <a href="" class="btn main-btn d-fl">
+                    <span>公式サイトはこちら</span>
+                    <img src="./asset/arrow-right-solid-white.svg" alt="arrow">                    
+                  </a>
+                </li>
+              </ul>               
+            </section>
+            <!-- end section -->
+
+            <section>
+              <ul>
+                <li class="ranking-site-bunner"><img src="asset/search-assets/search-01.jpg" alt="バナー"></li>
+                <li>
+                  <h3 class="d-fl">
+                    <span class="ranking_no_icon"><img src="asset/ranking/ranking_no5.svg" alt=""></span>
+                    <span class="ranking_site_title">Site-Title</span>
+                  </h3>
+                </li>
+                <li>
+                  <p>
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス                         
+                  </p>
+                </li>
+                <li>
+                  <a href="" class="btn main-btn d-fl">
+                    <span>公式サイトはこちら</span>
+                    <img src="./asset/arrow-right-solid-white.svg" alt="arrow">                    
+                  </a>
+                </li>
+              </ul> 
+            </section>
+            <!-- end section -->
+
+            <section>
+              <ul>
+                <li class="ranking-site-bunner"><img src="asset/search-assets/search-02.jpg" alt="バナー"></li>
+                <li>
+                  <h3 class="d-fl">
+                    <span class="ranking_no_icon"><img src="asset/ranking/ranking_no6.svg" alt=""></span>
+                    <span class="ranking_site_title">Site-Title</span>
+                  </h3>
+                </li>
+                <li>
+                  <p>
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス                         
+                  </p>
+                </li>
+                <li>
+                  <a href="" class="btn main-btn d-fl">
+                    <span>公式サイトはこちら</span>
+                    <img src="./asset/arrow-right-solid-white.svg" alt="arrow">                    
+                  </a>
+                </li>
+              </ul>               
+            </section>
+            <!-- end section -->
+
+            <section>
+              <ul>
+                <li class="ranking-site-bunner"><img src="asset/search-assets/search-03.jpg" alt="バナー"></li>
+                <li>
+                  <h3 class="d-fl">
+                    <span class="ranking_no_icon"><img src="asset/ranking/ranking_no7.svg" alt=""></span>
+                    <span class="ranking_site_title">Site-Title</span>
+                  </h3>
+                </li>
+                <li>
+                  <p>
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス                         
+                  </p>
+                </li>
+                <li>
+                  <a href="" class="btn main-btn d-fl">
+                    <span>公式サイトはこちら</span>
+                    <img src="./asset/arrow-right-solid-white.svg" alt="arrow">                    
+                  </a>
+                </li>
+              </ul>               
+            </section>
+            <!-- end section -->
+
+            <section>
+              <ul>
+                <li class="ranking-site-bunner"><img src="asset/search-assets/search-04.jpg" alt="バナー"></li>
+                <li>
+                  <h3 class="d-fl">
+                    <span class="ranking_no_icon"><img src="asset/ranking/ranking_no8.svg" alt=""></span>
+                    <span class="ranking_site_title">Site-Title</span>
+                  </h3>
+                </li>
+                <li>
+                  <p>
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス                         
+                  </p>
+                </li>
+                <li>
+                  <a href="" class="btn main-btn d-fl">
+                    <span>公式サイトはこちら</span>
+                    <img src="./asset/arrow-right-solid-white.svg" alt="arrow">                    
+                  </a>
+                </li>
+              </ul>               
+            </section>
+            <!-- end section -->
+
+            <section>
+              <ul>
+                <li class="ranking-site-bunner"><img src="asset/search-assets/search-06.jpg" alt="バナー"></li>
+                <li>
+                  <h3 class="d-fl">
+                    <span class="ranking_no_icon"><img src="asset/ranking/ranking_no9.svg" alt=""></span>
+                    <span class="ranking_site_title">Site-Title</span>
+                  </h3>
+                </li>
+                <li>
+                  <p>
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス                         
+                  </p>
+                </li>
+                <li>
+                  <a href="" class="btn main-btn d-fl">
+                    <span>公式サイトはこちら</span>
+                    <img src="./asset/arrow-right-solid-white.svg" alt="arrow">                    
+                  </a>
+                </li>
+              </ul>                
+            </section>
+            <!-- end section -->
+
+            <section>
+              <ul>
+                <li class="ranking-site-bunner"><img src="asset/search-assets/search-01.jpg" alt="バナー"></li>
+                <li>
+                  <h3 class="d-fl">
+                    <span class="ranking_no_icon"><img src="asset/ranking/ranking_no10.svg" alt=""></span>
+                    <span class="ranking_site_title">Site-Title</span>
+                  </h3>
+                </li>
+                <li>
+                  <p>
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス
+                    テキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキ
+                    ストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキス                         
+                  </p>
+                </li>
+                <li>
+                  <a href="" class="btn main-btn d-fl">
+                    <span>公式サイトはこちら</span>
+                    <img src="./asset/arrow-right-solid-white.svg" alt="arrow">                    
+                  </a>
+                </li>
+              </ul>              
+            </section>
+            <!-- end section -->
+          </article>
+        </div>
+    </div>
+  </main>  
+
+  <aside class="side-nav d-none">
+    <div class="inner">
+        <div class="aside-close-btn">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="aside-section-wrapper">
+            <section>
+                <h2><span>recomend</span></h2>
+                <div class="aside-recomend-posts-wrapper">
+                    <ul>
+                        <a href="">
+                            <li><img src="asset/posts/スクリーンショット 2024-02-05 22.17.03.png" alt=""></li>
+                            <li><p>サイト名サイト名サイト名</p></li>
+                        </a>
+                    </ul>
+                    <!--  -->
+                    <ul>
+                        <a href="">
+                            <li><img src="asset/posts/スクリーンショット 2024-02-05 22.18.37.png" alt=""></li>
+                            <li><p>サイト名サイト名サイト名</p></li>
+                        </a>
+                    </ul>
+                    <!--  -->
+                    <ul>
+                        <a href="">
+                            <li><img src="asset/posts/スクリーンショット 2024-02-05 22.20.00.png" alt=""></li>
+                            <li><p>サイト名サイト名サイト名</p></li>
+                        </a>
+                    </ul>
+                    <!--  -->
+                </div>
+            </section>
+            <!--  -->
+
+            <section>
+                <h2><span>Payment</span></h2>
+                <div class="aside-payment-posts-wrapper">
+                    <ul class="d-fl">
+                        <li><a href=""><img src="asset/payment-bank.svg" alt="バナー"></a></li>
+                        <li><a href=""><img src="asset/payment-bitcoin.svg" alt="バナー"></a></li>
+                        <li><a href=""><img src="asset/payment-card.svg" alt="バナー"></a></li>
+                        <li><a href=""><img src="asset/payment-payz.svg" alt="バナー"></a></li>
+                        <li><a href=""><img src="asset/payment-sticpay.svg" alt="バナー"></a></li>
+                        <li><a href=""><img src="asset/payment-vega.svg" alt="バナー"></a></li>
+                    </ul>
+                </div>
+            </section>
+            <!--  -->
+
+            <section>
+                <h2><span>Games</span></h2>
+                <div class="aside-games-posts-wrapper d-fl">
+                    <ul>
+                        <a href="" class="d-fl">
+                            <li><img src="asset/games-bakara.svg" alt=""></li>
+                            <li><p>バカラ</p></li>
+                        </a>
+                    </ul>
+                    <!--  -->
+                    <ul>
+                        <a href="" class="d-fl">
+                            <li><img src="asset/games-blackjack.svg" alt=""></li>
+                            <li><p>ブラックジャック</p></li>
+                        </a>
+                    </ul>
+                    <!--  -->
+                    <ul>
+                        <a href="" class="d-fl">
+                            <li><img src="asset/games-jickpor.svg" alt=""></li>
+                            <li><p>ジックポー</p></li>
+                        </a>
+                    </ul>
+                    <!--  -->
+                    <ul>
+                        <a href="" class="d-fl">
+                            <li><img src="asset/games-pocker.svg" alt=""></li>
+                            <li><p>ポーカー</p></li>
+                        </a>
+                    </ul>
+                    <!--  -->
+                    <ul>
+                        <a href="" class="d-fl">
+                            <li><img src="asset/games-rueret.svg" alt=""></li>
+                            <li><p>ルーレット</p></li>
+                        </a>
+                    </ul>
+                    <!--  -->
+                    <ul>
+                        <a href="" class="d-fl">
+                            <li><img src="asset/games-slot.svg" alt=""></li>
+                            <li><p>スロット</p></li>
+                        </a>
+                    </ul>
+                    <!--  -->   
+                    <ul>
+                        <a href="" class="d-fl">
+                            <li><img src="asset/games-sportsbet.svg" alt=""></li>
+                            <li><p>スポーツベット</p></li>
+                        </a>
+                    </ul>
+                    <!--  -->                                        
+                </div>
+            </section>
+        </div>
+    </div>
+  </aside>
+  <!-- aside  -->
+  <footer class="footer bg-blue-section">
+    <div class="inner">
+      <h1 class="footer-logo"><img src="./asset/logo.svg" alt="logo"></h1> 
+
+      <div class="pc-d-fl">
+
+        <nav>
+          <ul>
+            <li id="footer-sitemap-home-accordion-triger-btn" class="footer-link-title">ホーム</li>
+            <ul id="footer-sitemap-home-accordion-list" class="footer-accordion-contents sp-d-none">
+              <li><a href="#top" class="d-fl"><span>TOP</span><small>トップページ</small></a></li>
+              <li><a href="#recomennd" class="d-fl"><span>RECOMEND</span><small>おすすめカジノ</small></a></li>
+              <li><a href="#bonus" class="d-fl"><span>BONUS</span><small>限定ボーナス</small></a></li>
+              <li><a href="#search" class="d-fl"><span>SEARCH</span><small>カジノ比較</small></a></li>
+              <li><a href="#payment" class="d-fl"><span>PAYMENT</span><small>お支払い方法</small></a></li>
+              <li><a href="#guide" class="d-fl"><span>PAYMENT</span><small>お支払い方法</small></a></li>
+              <li><a href="#event" class="d-fl"><span>GUIDE</span><small>始め方ガイド</small></a></li>
+              <li><a href="#games" class="d-fl"><span>EVENT</span><small>イベント情報</small></a></li>
+              <li><a href="#event" class="d-fl"><span>GAMES</span><small>おすすめゲーム</small></a></li>
+              <li><a href="#about" class="d-fl"><span>ABOUT</span><small>サイト概要</small></a></li>              
+            </ul>
+          </ul>
+        </nav>
+
+        <nav>
+          <ul>
+            <li id="footer-sitemap-recomend-accordion-triger-btn" class="footer-link-title">RECOMEND</li>
+            <ul id="footer-sitemap-recomend-accordion-list" class="footer-accordion-contents sp-d-none">
+              <li><a href="" class="d-fl"><span>ベラジョンカジノ</span></a></li>
+              <li><a href="" class="d-fl"><span>ベラジョンカジノ</span></a></li>
+              <li><a href="" class="d-fl"><span>コニベット</span></a></li>           
+            </ul>
+          </ul>
+        </nav>
+
+        <!-- <nav>
+          <ul>
+            <li id="footer-sitemap-bonus-accordion-triger-btn" class="footer-link-title">BONUS</li>
+            <ul id="footer-sitemap-bonus-accordion-list" class="footer-accordion-contents sp-d-none">
+              <li><a href="" class="d-fl"><span>テキストテキストテキスト</span></a></li>
+              <li><a href="" class="d-fl"><span>テキストテキストテキスト</span></a></li>
+              <li><a href="" class="d-fl"><span>テキストテキストテキストテキスト</span></a></li>           
+            </ul>
+          </ul>
+        </nav>   -->
+        
+        <nav>
+          <ul>
+            <li id="footer-sitemap-search-accordion-triger-btn" class="footer-link-title">SEARCH</li>
+            <ul id="footer-sitemap-search-accordion-list" class="footer-accordion-contents sp-d-none">
+              <li><a href="" class="d-fl"><span>出金スピード</span></a></li>
+              <li><a href="" class="d-fl"><span>入金不要ボーナス</span></a></li>
+              <li><a href="" class="d-fl"><span>リベートボーナス</span></a></li>
+              <li><a href="" class="d-fl"><span>初心者向け</span></a></li>
+              <li><a href="" class="d-fl"><span>ハイローラー向け</span></a></li>
+              <li><a href="" class="d-fl"><span>仮想通貨</span></a></li>       
+            </ul>
+          </ul>
+        </nav>  
+
+        <nav>
+          <ul>
+            <li id="footer-sitemap-payment-accordion-triger-btn" class="footer-link-title">PAYMENT</li>
+            <ul id="footer-sitemap-payment-accordion-list" class="footer-accordion-contents sp-d-none">
+              <li><a href="" class="d-fl"><span>PAYZ</span></a></li>
+              <li><a href="" class="d-fl"><span>銀行送金</span></a></li>
+              <li><a href="" class="d-fl"><span>クレジットカード</span></a></li>
+              <li><a href="" class="d-fl"><span>Vega Wallet</span></a></li>
+              <li><a href="" class="d-fl"><span>Stick Pay</span></a></li>
+              <li><a href="" class="d-fl"><span>Bit coin</span></a></li>          
+            </ul>
+          </ul>
+        </nav>  
+
+        <!-- <nav>
+          <ul>
+            <li id="footer-sitemap-guide-accordion-triger-btn" class="footer-link-title">GUIDE</li>
+            <ul id="footer-sitemap-guide-accordion-list" class="footer-accordion-contents sp-d-none">
+              <li><a href="" class="d-fl"><span>ベラジョンカジノ</span></a></li>
+              <li><a href="" class="d-fl"><span>ミスティーノ</span></a></li>
+              <li><a href="" class="d-fl"><span>コニベット</span></a></li>       
+            </ul>
+          </ul>
+        </nav>      -->
+
+        <!-- <nav>
+          <ul>
+            <li id="footer-sitemap-event-accordion-triger-btn" class="footer-link-title">EVENT</li>
+            <ul id="footer-sitemap-event-accordion-list" class="footer-accordion-contents sp-d-none">
+              <li><a href="" class="d-fl"><span>テキストテキスト</span></a></li>
+              <li><a href="" class="d-fl"><span>テキスト</span></a></li>
+              <li><a href="" class="d-fl"><span>テキストテキスト</span></a></li>      
+            </ul>
+          </ul>
+        </nav>                         -->
+
+        <nav>
+          <ul>
+            <li id="footer-sitemap-games-accordion-triger-btn" class="footer-link-title">GAMES</li>
+            <ul id="footer-sitemap-games-accordion-list" class="footer-accordion-contents sp-d-none">
+              <li><a href="" class="d-fl"><span>バカラ</span></a></li>
+              <li><a href="" class="d-fl"><span>ブラックジャック</span></a></li>
+              <li><a href="" class="d-fl"><span>スロット</span></a></li>
+              <li><a href="" class="d-fl"><span>ポーカー</span></a></li>
+              <li><a href="" class="d-fl"><span>ルーレット</span></a></li>
+              <li><a href="" class="d-fl"><span>ジックポー</span></a></li> 
+              <li><a href="" class="d-fl"><span>スポーツベット</span></a></li>        
+            </ul>
+          </ul>
+        </nav>  
+
+        <nav>
+          <ul>
+            <li id="footer-relation-site-triger-btn" class="footer-link-title">関連サイト</li>
+            <ul id="footer-relation-site-accordion-list" class="footer-accordion-contents sp-d-none">
+              <li><a href=""><span>テキストテキストテキストテキストテキスト</span></a></li>
+              <li><a href=""><span>テキストテキストテキスト</span></a></li>
+              <li><a href=""><span>テキストテキストテキストテキスト</span></a></li>
+              <li><a href=""><span>テキストテキストテキスト</span></a></li>
+            </ul>
+          </ul>
+        </nav>  
+        
+      </div>
+      <a href="" target="_blank" rel="noopener noreferrer" class="footer-twitter-btn">
+        <img src="./asset/twitter-white.svg" alt="twitter">
+      </a>
+    </div>
+  </footer>
+  <!-- footer -->
+  <button class="side-nav-btn d-fl">サイドメニューを表示する<img src="asset/filter-btn-ui.svg" alt="フィルターUI"></button>
+  <script src="./js/aside.js"></script> 
+
+  <!-- js -->
+  <script src="./js/common.js"></script>
+  <script src="./js/swiper.min.js"></script>  
+  <script src="./js/slide.js"></script>   
+
+</body>
+</html>    
