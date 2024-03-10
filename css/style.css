@@ -198,6 +198,10 @@
         width: 30%;
         margin-bottom: var(--pc-main-mb-pb);
     }
+
+    .payment-text-wrapper p {
+        height: 120px;        
+    }    
 }
 /* payment */
 

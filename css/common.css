@@ -21,10 +21,12 @@
     --secion-color-white: #F8F6F6;  
     --secion-color-blur: #172857;
     --header-bg-color: #fff;
+    --single-section-color: #fff;
     
     /* 文字色 */
     --main-font-color: #262626;
     --sub-font-color: #fff;
+    --single-font-color: #707070;
 
     /* 余白 */
     --sp-main-mb-pb: 25px;
@@ -104,7 +106,7 @@ h3 {
 
 @media screen and (min-width: 960px) {
     .inner {
-        width: 95%;
+        width: 85%;
     }
 }
 
@@ -647,6 +649,10 @@ h3 {
     }
 }
 /* footer */
+
+.breadcrumb {
+    margin-bottom: var(--sp-main-mb-pb);
+}
 
 .breadcrumb span {
     margin-left: 5px;

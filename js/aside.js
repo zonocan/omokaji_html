@@ -31,10 +31,6 @@ window.addEventListener('scroll', function(){
     } else {
       side_nav_btn.classList.remove('active');
     }    
-    
+
 });
-
-
-
-  
 // aside

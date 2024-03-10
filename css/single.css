@@ -1,3 +1,394 @@
 .single-wrapper {
     padding: var(--sp-main-mb-pb) 0;
 }
+
+@media screen and (min-width: 960px) {
+    
+    .single-wrapper {
+        padding: var(--pc-main-mb-pb) 0;
+    }
+
+}
+
+.single-wrapper .overview-posts-wrapper article header h2 {
+    text-align: left;
+    line-height: 1rem;
+}
+
+.single-wrapper .overview-posts-wrapper article header h2 span strong {
+    font-weight: bold;
+    font-size: var(--sp-h2-font-size);
+    margin-right: 10px;
+}
+
+.single-wrapper .overview-posts-wrapper article header h2 span {
+    font-weight: normal;
+    font-size: var(--sp-h3-font-size);
+}
+
+@media screen and (min-width: 960px) {
+
+    
+    .single-wrapper .overview-posts-wrapper article header h2 {
+        font-size: var(--pc-h2-font-size);
+        width: 90%;
+        margin: var(--pc-main-mb-pb) auto;
+    }
+
+    .single-wrapper .overview-posts-wrapper article header h2 span {
+        font-size: var(--pc-h3-font-size);
+    }
+
+    .single-wrapper .overview-posts-wrapper article header h2 span strong {
+        font-size: var(--pc-h2-font-size);
+    }
+
+}
+
+.overview-posts-wrapper {
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+
+@media screen and (min-width: 960px) {
+
+    .overview-posts-wrapper {
+        margin-bottom: var(--pc-main-mb-pb);
+    }    
+} 
+
+.overview-posts-wrapper section {
+    margin-bottom: var(--sp-main-mb-pb);
+    font-size: var(--sp-main-font-size);
+}
+
+@media screen and (min-width: 960px)  {
+
+    .overview-posts-wrapper section {
+        margin-bottom: var(--pc-main-mb-pb);
+        font-size: var(--pc-main-font-size);
+    }
+    
+}
+
+.overview-post-bunner-wrapper img {
+    width: 100%;
+}
+
+.overview-posts-wrapper section p {
+    line-height: 1.5rem;
+}
+
+.over-view-content-02-icon {
+    width: 30%;
+    margin-right: 10%;
+}
+
+@media screen and (min-width: 960px) {
+
+    .over-view-content-02-icon {
+        width: 15%;
+        margin-right: 5%;
+    }
+}
+
+.over-view-content-02-content {
+    width: 55%;
+}
+
+.over-view-content-02-content {
+    padding: 15px;
+    background-color: var(--single-section-color);
+    /* border: 1px solid #707070; */
+    position: relative;
+    color: var(--single-font-color);
+}
+
+.over-view-content-02-content::before {
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: -30px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid var(--single-section-color);    
+}
+
+@media screen and (min-width: 960px) {
+ 
+    .over-view-content-02-content {
+        width: 80%;
+    }    
+
+    .over-view-content-02-content::before {
+        top: 9%;
+    }    
+}
+
+.over-view-content-03-content {
+    background-color: var(--single-section-color);
+    color: var(--single-font-color);
+    padding: 15px;
+}
+
+@media screen and (min-width: 960px) {
+
+    .overview-posts-wrapper {
+        margin-bottom: var(--pc-main-mb-pb);
+    }
+}
+/* 共通（概要部分） */
+
+
+.table-of-contents-accordion-triger-btn {
+    padding: 10px 0 10px 10px;
+    background-color: var(--main-btn-colre);
+    color: var(--sub-font-color);
+    position: relative;
+}
+
+@media screen and (min-width: 960px) {
+
+    .table-of-contents-accordion-triger-btn {
+         font-size: var(--pc-h3-font-size);
+         text-align: center;  
+    }
+}
+
+.table-of-contents-accordion-triger-btn::before,
+.table-of-contents-accordion-triger-btn::after {
+    content: '';
+    position: absolute;
+    background-color: var(--sub-font-color);
+    width: 15px;
+    height: 1px;
+    right: 5%;
+    top: 17px;
+    transition: all .4s;        
+}
+
+@media screen and (min-width: 960px)  {
+
+    .table-of-contents-accordion-triger-btn::before,
+    .table-of-contents-accordion-triger-btn::after {
+        width: 20px;        
+        top: 25px;
+    }    
+}
+
+.table-of-contents-accordion-triger-btn::after {
+    transform: rotate(90deg);
+}
+
+.table-of-contents-accordion-triger-btn.active::after {
+    transform: rotate(-180deg);
+}
+
+.table-of-contents-accordion {
+    padding: 15px;
+    border: 1px solid var(--main-btn-colre);
+}
+
+@media screen and (min-width: 960px) {
+
+    .table-of-contents-accordion {
+        padding: var(--pc-main-mb-pb);
+    }
+}
+
+.table-of-content-wrapper {
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+.table-of-content-wrapper h4 a,
+.table-of-content-wrapper ul li a {
+    color: var(--main-font-color);
+}
+
+.table-of-content-wrapper h4 {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.table-of-content-wrapper h4 a {
+    font-size: var(--sp-h3-font-size);
+    font-weight: bold;
+
+}
+
+.table-of-content-wrapper h4 a span {
+    font-size: var(--sp-h3-font-size);
+    font-weight: bold;
+    color: var(--main-font-color);
+    margin-right: 15px;
+}
+
+@media screen and (min-width: 960px) {
+
+    .table-of-content-wrapper h4 a {
+        font-size: var(--pc-h3-font-size);
+    }
+
+    .table-of-content-wrapper h4 a span {
+        font-size: var(--pc-h3-font-size);
+    }
+}
+
+.table-of-content-wrapper ul li {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.table-of-content-wrapper ul li::before {
+    content: '';
+    position: absolute;
+    background-color: var(--main-font-color);
+    height: 1px;
+    width: 15px;
+    top: 10px;
+    left: 0;
+}
+
+.table-of-content-wrapper ul li a {
+    margin-left: 20px;
+}
+
+@media screen and (min-width: 960px) {
+    .table-of-content-wrapper ul li a {
+        font-size: var(--pc-main-font-size);
+        margin-left: 25px;
+    }
+}
+
+.game-rule-posts-wrapper {
+    margin: var(--sp-main-mb-pb) 0;
+}
+
+@media screen and (min-width: 960px) {
+    .game-rule-posts-wrapper {
+        margin: var(--pc-main-mb-pb) 0;
+    }    
+}
+
+.game-how-to-bet-posts-wrapper,
+.game-how-to-win-posts-wrapper  {
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+.game-rule-posts-wrapper article header,
+.game-how-to-bet-posts-wrapper article header,
+.game-how-to-win-posts-wrapper article header {
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+@media screen and (min-width: 960px) {
+    .game-rule-posts-wrapper article header,
+    .game-how-to-bet-posts-wrapper article header,
+    .game-how-to-win-posts-wrapper article header {
+        margin-bottom: var(--pc-main-mb-pb);
+    }    
+}
+
+.game-rule-posts-wrapper article header h2 strong,
+.game-how-to-bet-posts-wrapper article header h2 strong,
+.game-how-to-win-posts-wrapper article header h2 strong,
+.single-game-recomend-site-posts-wrapper article header h2 strong {
+    font-size: var(--sp-h2-font-size);
+    margin: 0 5px;
+}
+
+@media screen and (min-width: 960px) {
+
+    .game-rule-posts-wrapper article header h2,
+    .game-how-to-bet-posts-wrapper article header h2,
+    .game-how-to-win-posts-wrapper article header h2,
+    .single-game-recomend-site-posts-wrapper article header h2 {
+        font-size: var(--pc-h3-font-size);
+    }
+
+    .game-rule-posts-wrapper article header h2 strong,
+    .game-how-to-bet-posts-wrapper article header h2 strong,
+    .game-how-to-win-posts-wrapper article header h2 strong,
+    .single-game-recomend-site-posts-wrapper article header h2 strong {
+        font-size: var(--pc-h2-font-size);
+        margin: 0 5px;
+    }    
+}
+
+.game-rule-posts-wrapper article section h3,
+.game-how-to-bet-posts-wrapper article section h3,
+.game-how-to-win-posts-wrapper article section h3  {
+    position: relative;
+    border-bottom: 1px solid var(--main-btn-colre);     
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+.game-rule-posts-wrapper article section h3 span,
+.game-how-to-bet-posts-wrapper section h3 span,
+.game-how-to-win-posts-wrapper section h3 span{
+    font-size: var(--sp-h3-font-size); 
+    font-weight: bold;
+    margin-left: 20px; 
+}
+
+@media screen and (min-width: 960px)  {
+
+    .game-rule-posts-wrapper article section h3,
+    .game-how-to-bet-posts-wrapper article section h3,
+    .game-how-to-win-posts-wrapper article section h3  {   
+        margin-bottom: var(--pc-main-mb-pb);
+    }    
+
+    .game-rule-posts-wrapper article section h3 span,
+    .game-how-to-bet-posts-wrapper section h3 span,
+    .game-how-to-win-posts-wrapper section h3 span {
+        font-size: var(--pc-h3-font-size);         
+    }    
+}
+
+.game-rule-posts-wrapper article section h3::before,
+.game-how-to-bet-posts-wrapper article section h3::before,
+.game-how-to-win-posts-wrapper article section h3::before  {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--main-btn-colre);    
+}
+
+@media screen and (min-width: 960px)  {
+    .game-rule-posts-wrapper article section h3::before,
+    .game-how-to-bet-posts-wrapper article section h3::before,
+    .game-how-to-win-posts-wrapper article section h3::before  {
+        height: 25px;        
+    }    
+}
+
+.game-rule-posts-wrapper section ul li,
+.game-how-to-bet-posts-wrapper ul li,
+.game-how-to-win-posts-wrapper ul li {
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+.game-rule-posts-wrapper section ul li img,
+.game-how-to-bet-posts-wrapper section ul li img,
+.game-how-to-win-posts-wrapper section ul li img {
+    width: 100%;
+}
+
+.game-rule-posts-wrapper section ul li p,
+.game-how-to-bet-posts-wrapper section ul li p,
+.game-how-to-win-posts-wrapper section ul li p {
+    line-height: 1.5rem;
+}
+
+@media screen and (min-width: 960px) {
+    .game-rule-posts-wrapper section ul li,
+    .game-how-to-bet-posts-wrapper ul li,
+    .game-how-to-win-posts-wrapper ul li {
+        margin-bottom: var(--pc-main-mb-pb);
+    }    
+}
+/* game */
