@@ -328,27 +328,28 @@ h3 {
 
 .hum-list {
     width: 100%;
-    max-height: calc(100vh - 50px);
+    height: calc(100vh - 50px);
     position: fixed;
     background-color: #ffffffd1;
     top: 50px;
     padding: var(--sp-main-mb-pb);
     z-index: 100;
     border-top: 1px solid var(--main-font-color);
-    overflow: auto;    
+    overflow: auto!important;   
+    z-index: 1000;  
 }
 
-.hum-list .inner p {
-    font-size: var(--sp-h2-font-size);
-    margin-bottom: var(--sp-main-mb-pb);
+.hum-list .inner {
+    margin-top: 50px;
+    font-size: var(--sp-main-font-size);
 }
 
 .hum-list .inner nav {
-    margin-bottom: var(--sp-main-mb-pb);
+    margin-bottom: 50px;
 }
 
 .hum-list nav ul li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .hum-list-link-title {

@@ -519,3 +519,144 @@
         line-height: 2rem;
     }
 }
+/* search payment 共通 */
+
+
+.ranking-sites-wrapper article section ul li table {
+    border: 1px solid var(--main-font-color);
+    width: 100%;
+    
+}
+
+.ranking-sites-wrapper article section ul li table thead th {
+    width: 50%;
+    text-align:center!important;
+    border-bottom: 1px solid var(--main-font-color);
+    border-right: 1px solid var(--main-font-color);
+    padding: 10px 0;
+    font-size: var(--sp-main-font-size);
+}
+
+.ranking-sites-wrapper article section ul li table thead th:last-child {
+    font-weight: bold;
+    color: var(--main-btn-colre);
+}
+
+.ranking-sites-wrapper article section ul li table tbody tr td {
+    width: 50%;
+    text-align:center!important;    
+    border-bottom: 1px solid var(--main-font-color);  
+    border-right: 1px solid var(--main-font-color);     
+    padding: 10px 0;     
+    font-size: var(--sp-main-font-size);
+}
+
+@media screen and (min-width: 960px) {
+
+    .ranking-sites-wrapper article section ul li table {
+        width: 80%;
+        margin: 0 auto;
+    }
+ 
+    .ranking-sites-wrapper article section ul li table thead th {
+        font-size: var(--pc-main-font-size);
+    }
+
+    .ranking-sites-wrapper article section ul li table tbody tr td {
+        font-size: var(--pc-main-font-size);
+    }   
+
+}
+/* serarch */
+
+.payment-merites-wrapper article header h2,
+.payment-demerites-wrapper article header h2 {
+    font-weight: bold;
+    font-size: var(--sp-h2-font-size);
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+@media screen and (min-width: 960px) {
+    .payment-merites-wrapper article header h2,
+    .payment-demerites-wrapper article header h2 {
+        font-size: var(--pc-main-mb-pb);
+        margin-bottom: var(--pc-main-mb-pb);
+    }    
+}
+
+.payment-merites-wrapper article section ul li, 
+.payment-demerites-wrapper article section ul li{
+    margin-bottom: var(--sp-main-mb-pb);
+}
+
+
+@media screen and (min-width: 960px) {
+    .payment-merites-wrapper article section ul li, 
+    .payment-demerites-wrapper article section ul li{
+        margin-bottom: var(--pc-main-mb-pb);
+    }    
+}
+
+.payment-merites-wrapper article section ul li h3,
+.payment-demerites-wrapper article section ul li h3  {
+    position: relative;
+    border-bottom: 1px solid var(--main-btn-colre);     
+    margin-bottom: var(--sp-main-mb-pb);
+    width: 100%;    
+}
+
+.payment-merites-wrapper article section ul li h3 span,
+.payment-demerites-wrapper article section ul li h3 span {
+    margin-left: 20px;   
+    font-size: var(--sp-h3-font-size);  
+}
+
+.payment-merites-wrapper article section ul li h3::before,
+.payment-demerites-wrapper article section ul li h3::before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--main-btn-colre);      
+}
+
+@media screen and (min-width: 960px) {
+    .payment-merites-wrapper article section ul li h3,
+    .payment-demerites-wrapper article section ul li h3 {
+        margin-bottom: var(--pc-main-mb-pb);
+    }    
+
+
+    .payment-merites-wrapper article section ul li h3 span,
+    .payment-demerites-wrapper article section ul li h3 span {
+        font-size: var(--pc-h3-font-size);
+    } 
+
+    .payment-merites-wrapper article section ul li h3::before,
+    .payment-demerites-wrapper article section ul li h3::before {
+        height: 30px;
+    }       
+}
+
+.payment-merite-bunner-wrapper img,
+.payment-demerite-bunner-wrapper img {
+    width: 100%;
+}
+
+.payment-merites-wrapper article section ul li p,
+.payment-merites-wrapper article section ul li p {
+    line-height: 1.5rem;
+    font-size: var(--sp-main-font-size);
+}
+
+@media screen and (min-width: 960px) {
+
+    .payment-merites-wrapper article section ul li p,
+    .payment-merites-wrapper article section ul li p {
+        line-height: 2rem;
+        font-size: var(--pc-main-font-size);
+    }    
+}
+/* payment */
