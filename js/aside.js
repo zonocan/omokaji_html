@@ -6,10 +6,12 @@ const aside_close_btn = document.querySelector('.aside-close-btn');
 
 side_nav_btn.addEventListener('click', () => {
   side_nav.classList.toggle('active');
+  aside_close_btn.classList.toggle('active');
 });
 
 aside_close_btn.addEventListener('click', () => {
   side_nav.classList.remove('active');
+  aside_close_btn.classList.remove('active');
 });
 
 
